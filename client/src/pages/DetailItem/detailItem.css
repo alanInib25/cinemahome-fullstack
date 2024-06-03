@@ -1,0 +1,12 @@
+@import url("../../../style.css");
+
+.detailItem{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detailItem-top{
+  display: flex;
+  flex-direction: column;
+}

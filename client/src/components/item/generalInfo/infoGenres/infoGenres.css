@@ -1,0 +1,35 @@
+@import url("../../../../../style.css");
+
+
+.InfoGeneres{
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.InfoGeneres li{
+  margin-left: .5rem;
+  padding: .8rem;
+  background: var(--color-purple);
+  border-radius: .5rem;
+  text-wrap: nowrap;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.InfoGeneres li:hover{
+  background: transparent;
+  box-shadow: 0 0 1rem var(--color-purple);
+}
+
+.InfoGeneres li:hover .genres-name{
+  color: var(--color-purple);
+}
+
+.InfoGeneres li .genres-name{
+  font-size: 1.5rem;
+  color: white;
+}
+
+/**/

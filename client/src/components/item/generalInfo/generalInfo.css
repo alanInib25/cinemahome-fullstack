@@ -1,0 +1,47 @@
+@import url("../../../../style.css");
+
+.generalInfo{
+  position: relative;
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+}
+
+.generalInfo-details{
+  height: 45rem;
+  width: 75%;
+  padding: 0 2rem;
+  background: transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+/*mediaqueries*/
+@media screen and (max-width: 1000px){
+  .generalInfo-row{
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .generalInfo-details{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .generalInfo{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .generalInfo-details{
+    position: absolute;
+    left:0;
+    width: 100%;
+    background: var(--rgba-dark);
+  }
+}

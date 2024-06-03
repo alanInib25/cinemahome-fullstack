@@ -1,0 +1,74 @@
+@import url("../../../style.css");
+
+.genres{
+  position: relative;
+  min-width: 30rem;
+  padding: 1rem 2rem;
+  background: var(--rgba-dark);
+  border-radius: .5rem;
+}
+
+.genres-content{
+  width: 25rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(10rem, 1fr));
+}
+
+.genres-title{
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+
+.genres-menu{
+  list-style: none;
+}
+
+.genres-menu li{
+  display: inline-flex;
+  margin: .2rem;
+  padding: 1rem 2rem;
+  background: var(--color-dark);
+  border: .1rem solid var(--color-lightBlue);
+  border-radius: 1rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.genres-navLink{
+  color: var(--color-lightBlue);
+  font-size: 1.5rem;
+  
+}
+
+.genres-navLink-selected{
+  display: block;
+  width: 100%;
+  color: var(--color-lightBlue);
+  font-size: 1.5rem;
+  
+  animation: 1s OnOfflight infinite;
+}
+
+@keyframes OnOfflight {
+  0%{
+    text-shadow: 0 0 1rem var(--color-lightBlue);
+    color: var(--color-lightBlue);
+  }
+  50%{
+    text-shadow: 0 0 2rem var(--color-lightBlue);
+    color: var(--color-red)
+  }
+  100%{
+    text-shadow: 0 0 1rem var(--color-lightBlue);
+    color: var(--color-dark)
+  }
+}
+
+/*mediaqueries*/
+@media screen and (max-width: 750px) {
+  .genres{
+    padding: 1rem 0;
+  }
+}

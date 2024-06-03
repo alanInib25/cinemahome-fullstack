@@ -1,0 +1,23 @@
+@import url("../../../../style.css");
+
+/*REVIEWS*/
+.reviews{
+  border-bottom: .2rem solid var(--color-red);
+  padding-bottom: 2rem;
+}
+
+.reviews h2{
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: var(--color-white);
+}
+
+.reviews-container{
+  min-height: 60vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

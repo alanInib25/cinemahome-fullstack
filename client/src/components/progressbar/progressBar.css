@@ -1,0 +1,25 @@
+@import url("../../../style.css");
+
+.CircularProgressbar{
+  width: 10rem !important;
+  vertical-align: middle;
+  border-radius: 10rem;
+}
+
+.CircularProgressbar-path {
+  stroke: var(--color-lightBlue) !important;
+  stroke-width: 15;
+  
+}
+.CircularProgressbar-trail {
+  stroke: var(--color-red) !important;
+  stroke-linecap: round;
+  stroke-width: 15;
+
+}
+
+.CircularProgressbar-text {
+  stroke: var(--color-lightBlue);  /* fill: var(--color-white) !important; */
+  font-size: 2rem;
+  font-weight: 100;
+}

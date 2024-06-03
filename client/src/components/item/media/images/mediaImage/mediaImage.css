@@ -1,0 +1,33 @@
+@import url("../../../../../../style.css");
+
+.mediaImage-container{
+  margin-bottom: 5rem;
+}
+
+.mediaImage h3{
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: var(--color-red);
+}
+
+.mediaImage-typeImage{
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 2rem;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+
+.mediaImage-content{
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 22rem));
+  gap: 1rem;
+}
+
+.mediaImage-content picture img{
+  width: 100%;
+  height: 100%;
+  border: .1rem solid var(--color-lightBlue)
+}

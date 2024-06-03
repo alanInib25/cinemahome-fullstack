@@ -1,0 +1,29 @@
+@import url("../../../../../style.css");
+.mediaImages-menu{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.mediaImages-navLink{
+  font-size: 1.6rem;
+  color: var(--color-white);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.mediaImages-navLink:hover{
+  border-bottom: .1rem solid var(--color-lightBlue);
+  text-shadow: .1rem .1rem 1rem var(--color-lightBlue);
+}
+
+.mediaImages-navLink-selected{
+  font-size: 1.6rem;
+  color: var(--color-lightBlue);
+  text-decoration: none;
+  text-shadow: 0 0 1rem var(--color-lightBlue);
+  transition: .5s;
+  text-transform: capitalize;
+}

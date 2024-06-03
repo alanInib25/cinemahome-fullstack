@@ -1,0 +1,7 @@
+@import url("../../../style.css");
+
+
+.form.forgotPass{
+  border: .1rem solid var(--color-white);
+  background: var(--color-dark);
+}

@@ -1,0 +1,41 @@
+@import url("../../../../style.css");
+
+.multimedia{
+  border-bottom: .1rem solid var(--color-red);
+  padding-bottom: 2rem;
+}
+
+.multimedia h2{
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: var(--color-white);
+}
+
+.multimedia-menu{
+  margin-bottom: 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.multimedia-navLink{
+  font-size: 1.6rem;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.multimedia-navLink:hover{
+  border-bottom: .1rem solid var(--color-lightBlue);
+  text-shadow: .1rem .1rem 1rem var(--color-lightBlue);
+}
+
+.multimedia-navLink-selected{
+  font-size: 1.6rem;
+  color: var(--color-lightBlue);
+  text-decoration: none;
+  text-shadow: 0 0 1rem var(--color-lightBlue);
+  transition: .5s;
+}

@@ -1,0 +1,12 @@
+@import url("../../../../style.css");
+
+.cast{
+  border-bottom: .2rem solid var(--color-red);
+}
+
+.cast h2{
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: var(--color-white);
+}

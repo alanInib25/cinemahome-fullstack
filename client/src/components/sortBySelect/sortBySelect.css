@@ -1,0 +1,41 @@
+@import url("../../../style.css");
+
+h3{
+  padding: .5;
+  font-size: 2rem;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+
+.sortBySelect{
+  width: 100%;
+  padding: 1.5rem;
+  background: var(--rgba-dark);
+  border-radius: .5rem;
+  text-transform: capitalize;
+  transition: .3s;
+  color: var(--color-white);
+}
+
+select{
+  margin: 1rem 0;
+  width: 100%;
+  padding: 1rem;
+  background: var(--color-dark);
+  color: var(--color-lightBlue);
+  border: .1rem solid var(--color-lightBlue);
+  border-radius: .5rem;
+  font-size: 1.5rem;
+}
+
+select option{
+  display: inline-block;
+  background: var(--color-dark);
+}
+
+/*mediaqueris*/
+@media screen and (max-width: 450px){
+  .sortBySelect{
+    padding: 1rem 0;
+  }
+}

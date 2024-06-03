@@ -1,0 +1,61 @@
+@import url("../../../style.css");
+
+.movies{
+ /*  padding: 1rem 3rem; */
+  overflow: hidden;
+  background: var(--color-dark);
+}
+
+.movies-container{
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.movies-top{
+  display: flex;
+  align-items: center;
+}
+
+.movies p{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+
+.movies-options{
+  flex: 1 1 20%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.movies-content{
+  flex: 2 2 70%;
+}
+
+/*mediaqueries*/
+@media screen and (max-width: 800px){
+  .movies-container{
+    flex-direction: column;
+  }
+
+  .options-inputs{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .movies-content{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 470px){
+  .options-inputs{
+    flex-direction: column;
+  }
+}

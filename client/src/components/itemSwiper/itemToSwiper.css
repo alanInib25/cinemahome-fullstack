@@ -1,0 +1,10 @@
+@import url("../../../style.css");
+
+.logoItemToSwiper{
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  top: 0%;
+  left: 4%;
+  z-index: 1000;
+}

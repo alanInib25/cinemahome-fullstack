@@ -1,0 +1,18 @@
+@import url("../../../style.css");
+
+.detail-section{
+  background: var(--color-dark);
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-item-content{
+  height: 45rem;
+  padding: 0 2rem;
+  width: 80%;
+  background: transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}

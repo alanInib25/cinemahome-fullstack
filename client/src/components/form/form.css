@@ -1,0 +1,183 @@
+@import url("../../../style.css");
+
+.form{
+  margin: 0 auto;
+  width: 40rem;
+  padding: 2rem;
+  backdrop-filter: brightness(20%);
+  background: transparent;
+  border-radius: .5rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form.signin{
+  box-shadow: 0 0 .2rem var(--color-red);
+}
+
+.form.signup{
+  box-shadow: 0 0 .2rem var(--color-lightBlue);
+}
+
+.form-title{
+  color: var(--color-white);
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.form-group{
+  width: 100%;
+}
+
+.form-label{
+  display: block;
+  padding: .8rem 0;
+  font-size: 1.5rem;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+
+.form-input{
+  width: 100%;
+  padding: 1rem .8rem;
+  font-size: 1.8rem;
+  color: var(--color-white);
+  background: transparent;
+  border: .1rem solid var(--color-white);
+  border-radius: .5rem;
+}
+
+.form-input::placeholder{
+  font-size: 1.5rem;
+  color: var(--color-white);
+}
+
+.form-button{
+  width: 40%;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  padding: .8rem 2rem;
+  border-radius: .8rem;
+  transition: .3s;
+  text-transform: capitalize;
+  background: var(--color-white);
+  box-shadow: 0 0 1rem var(--color-white);
+  color: var(--color-dark);
+  border: .1rem solid var(--color-white);
+}
+
+.form-button:hover{
+  background: var(--color-dark);
+  color: var(--color-white);
+  border-color: var(--color-dark);
+  text-shadow: 0 0 1rem var(--color-white);
+}
+
+.form-button.signin{
+  background: var(--color-red);
+  box-shadow: 0 0 1rem var(--color-red);
+  color: var(--color-dark);
+  border: .1rem solid var(--color-red);
+}
+
+.form-button.signin:hover{
+  background: var(--color-dark);
+  color: var(--color-red);
+  border-color: var(--color-dark);
+  text-shadow: 0 0 1rem var(--color-red);
+}
+
+.form-button.signup{
+  background: var(--color-lightBlue);
+  box-shadow: 0 0 1rem var(--color-lightBlue);
+  color: var(--color-dark);
+  border: .1rem solid var(--color-lightBlue);
+}
+
+.form-button.signup:hover{
+  background: var(--color-dark);
+  color: var(--color-lightBlue);
+  border-color: var(--color-dark);
+  text-shadow: 0 0 1rem var(--color-lightBlue);
+}
+
+.error-message{
+  font-size: 1.2rem;
+  color: var(--color-white);
+  text-shadow: 0 0 1rem var(--color-white);
+}
+
+.error-message.signin{
+  font-size: 1.2rem;
+  color: var(--color-red);
+  text-shadow: 0 0 1rem var(--color-red);
+}
+
+.error-message.signup{
+  font-size: 1.2rem;
+  color: var(--color-lightBlue);
+  text-shadow: 0 0 1rem var(--color-lightBlue);
+}
+
+.forgotPassword-message,
+.account-message{
+  width: 100%;
+  font-size: 1.3rem;
+  color: var(--color-white);
+}
+
+.forgotPassword-link{
+  margin-left: .3rem;
+  color: var(--color-white);
+  transition: .3s;
+}
+
+.forgotPassword-link:hover{
+  text-shadow: 0 0 1rem var(--color-white);
+  text-decoration: underline;
+  letter-spacing: .1rem;
+}
+
+.account-link.signin{
+  margin-left: .3rem;
+  color: var(--color-red);
+  transition: .3s;
+}
+
+.account-link.signup{
+  margin-left: .3rem;
+  color: var(--color-lightBlue);
+  transition: .3s;
+}
+
+.account-link.signin:hover{
+  text-shadow: 0 0 1rem var(--color-red);
+  text-decoration: underline;
+  letter-spacing: .1rem;
+}
+.account-link.signup:hover{
+  text-shadow: 0 0 1rem var(--color-lightBlue);
+  text-decoration: underline;
+  letter-spacing: .1rem;
+}
+
+
+/*media queres*/
+@media screen and (max-width: 380px){
+  .form{
+    width: 90%;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .form{
+    width: 98%;
+    padding: 1rem;
+  }
+}

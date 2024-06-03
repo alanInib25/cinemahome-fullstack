@@ -1,0 +1,13 @@
+@import url("../../../style.css");
+
+/*back button*/
+.back-button{
+  font-size: 3.5rem;
+  background: var(--color-dark);
+  color: var(--color-red);
+}
+
+.back-button:hover{
+  border: .1rem solid var(--rgba-red);
+  border-radius: .5rem;
+}

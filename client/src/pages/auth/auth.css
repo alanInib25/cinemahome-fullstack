@@ -1,0 +1,24 @@
+@import url("../../../style.css");
+
+.auth{
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.auth-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../../assert/images/login/logo_3.jpg");
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

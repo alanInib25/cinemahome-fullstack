@@ -1,0 +1,44 @@
+@import url("../../../../../style.css");
+
+.infoStatistics{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.infoStatistics-progressbar,
+.infoStatistics-popularity{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.infoStatistics-progressbar span{
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--color-lightBlue);
+  text-shadow: 0 0 1rem var(--color-lightBlue);
+}
+
+.infoStatistics-popularity{
+  background: transparent;
+}
+
+.infoStatistics-popularity span {
+  padding: 1rem;
+  font-size: 2rem;
+  color: var(--color-lightBlue);
+  font-weight: 600;
+  box-shadow: 0 0 .5rem var(--color-lightBlue);
+  border-radius: .3rem;
+}
+
+.infoStatistics-popularity small{
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--color-lightBlue);
+  text-shadow: 0 0 1rem var(--color-lightBlue);
+}
+

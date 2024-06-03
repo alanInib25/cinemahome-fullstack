@@ -1,0 +1,20 @@
+@import url("../../../../../style.css");
+
+/*icons*/
+.infoSocial{
+  padding: .5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.infoSocial .social-icon{
+  font-size: 3.5rem;
+  color: var(--color-white);
+  transition: .3s;
+}
+
+.infoSocial .social-icon:hover{
+  transform: scale(1.1, 1.1);
+  color: var(--color-red);
+}

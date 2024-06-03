@@ -1,0 +1,28 @@
+@import url("../../../style.css");
+
+picture{
+  height: 45rem;
+/*   width: 25%; */
+  background: transparent;
+  position: relative;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+}
+
+.image-title{
+  width: 100%;
+  padding: 1rem;
+  background: var(--rgba-red);
+  color: var(--color-white);
+  border: .3rem solid var(--color-red);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

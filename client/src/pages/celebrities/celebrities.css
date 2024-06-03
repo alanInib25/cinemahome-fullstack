@@ -1,0 +1,6 @@
+@import url("../../../style.css");
+
+.celebrities-top{
+  display: flex;
+  align-items: center;
+}

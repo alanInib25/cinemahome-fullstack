@@ -1,0 +1,46 @@
+@import url("../../../style.css");
+
+.search{
+  height: 100%;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: var(--rgba-dark);
+  border-radius: .5rem;
+}
+
+h3{
+  padding: .5;
+  font-size: 2rem;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+
+.search input{
+  margin: 1rem 0;
+  width: 100%;
+  padding: .8rem;
+  background: var(--color-dark);
+  font-size: 1.8rem;
+  border-radius: .5rem;
+  border: .1rem solid var(--color-lightBlue);
+  color: var(--color-lightBlue);
+}
+
+.search input::placeholder{
+  color: var(--color-lightBlue);
+}
+
+
+.search small{
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  color: var(--color-lightBlue);
+  text-align: start;
+}
+
+@media screen and (max-width: 450px) {
+  .search{
+    padding: 1rem 0;
+  }
+}

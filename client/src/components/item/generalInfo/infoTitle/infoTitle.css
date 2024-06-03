@@ -1,0 +1,14 @@
+@import url("../../../../../style.css");
+
+.infoTitle{
+  margin-bottom: 0;
+  padding: .5rem 0;
+  font-size: 3rem;
+  color: var(--color-white);
+  font-weight: bolder;
+}
+
+.infoTitle span{
+  margin: 0 1rem;
+  font-weight: 200;
+}

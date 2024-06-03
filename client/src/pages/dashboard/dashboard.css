@@ -1,0 +1,18 @@
+@import url("../../../style.css");
+
+.dashboard-link{
+  padding: 1rem 0;
+  font-size: 3rem;
+  color: var(--color-white);
+  font-weight: 900;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.dashboard-link:hover{
+  text-shadow: 0 0 1rem var(--color-white);
+  letter-spacing: .1rem;
+}
+
+/*mediaqueries*/
+/* @media screen and (max-width: ) */

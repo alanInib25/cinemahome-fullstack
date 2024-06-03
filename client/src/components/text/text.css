@@ -1,0 +1,17 @@
+@import url("../../../style.css");
+
+.text{
+  color: var(--color-white);
+}
+
+.text h2{
+  font-size: 2.3rem;
+  margin: .5rem 0;
+}
+
+.text p{
+  font-size: 1.5rem;
+  max-height: 10rem;
+  overflow-y: scroll;
+}
+

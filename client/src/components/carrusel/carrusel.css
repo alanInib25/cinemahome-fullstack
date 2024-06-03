@@ -1,0 +1,13 @@
+@import url("../../../style.css");
+
+.carrusel{
+  border-bottom: .2rem solid var(--color-red);
+  padding-bottom: 2rem;
+}
+
+.carrusel h2{
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: var(--color-white);
+}

@@ -1,0 +1,6 @@
+@import url("../../../style.css");
+
+.logo{
+  font-size: 4rem;
+  color: var(--color-red);
+}

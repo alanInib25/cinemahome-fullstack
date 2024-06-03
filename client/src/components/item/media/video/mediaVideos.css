@@ -1,0 +1,11 @@
+@import url("../../../../../style.css");
+
+.mediaVideos{
+  margin-bottom: 4rem;
+}
+
+
+.mediaVideos iframe{
+  height: 100vh;
+  width: 100%;
+}
