@@ -25,7 +25,6 @@ h1{
 }
 
 .home-text{
-/*   border: .1rem solid var(--color-lightBlue); */
   padding: 1rem;
   text-align: center;
   border-radius: 1rem;
@@ -34,9 +33,29 @@ h1{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-/*   background: var(--rgba-dark); */
   font-size: 4.5rem;
   color: var(--color-white);
   z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
+
+.home-signin{
+  width: 15rem;
+  padding: 1rem 2rem;
+  background: var(--color-red);
+  border: .2rem solid var(--color-red);
+  border-radius: 1rem;
+  color: var(--color-white);
+  font-size: 2rem;
+  transition: .3s;
+}
+
+.home-signin:hover{
+ background: transparent;
+ color: var(--color-red);
+}

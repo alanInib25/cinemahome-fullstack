@@ -77,10 +77,10 @@ function Header() {
         ) : !Object.keys(user).length ? (
           <>
             <Link to="/auth/signup" className="auth-link signup">
-              signup
+              Sign Up
             </Link>
             <Link to="/auth/signin" className="auth-link signin">
-              signin
+              Sign In
             </Link>
           </>
         ) : (
