@@ -131,7 +131,7 @@ function FormComp() {
               message: "Min. 6 characters",
             },
             maxLength: {
-              value: 20,
+              value: 12,
               message: "Max. 20 characters",
             },
           })}

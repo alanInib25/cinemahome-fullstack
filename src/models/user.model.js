@@ -7,6 +7,8 @@ const userSchema = new Schema(
       require: true,
       unique: true,
       trim: true,
+      minLength: 2,
+      maxLength: 15,
     },
     email:{
       type: String,
@@ -18,6 +20,8 @@ const userSchema = new Schema(
       type: String,
       require: true,
       trim: true,
+      minLength: 6,
+      maxLength: 12,
     },
     role:{
       type: ["admin", "user"],

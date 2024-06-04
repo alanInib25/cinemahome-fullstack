@@ -4,9 +4,9 @@ const {
 
 const authRequire = async (req, res, next) => {
   try {
-    const { accessToken } = req.cookies;
-    const user = !accessToken ? false : await verifyAccessToken(accessToken);
-    if (!user) return res.status(400).json([{ message: "Error credentialssssss" }]);
+    const { token } = req.cookies;
+    const user = !token ? false : await verifyAccessToken(token);
+    if (!user) return res.status(400).json([{ message: "Error credentials" }]);
     req.userId = user.id;
     next();
   } catch (error) {

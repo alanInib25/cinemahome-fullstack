@@ -5,6 +5,6 @@ const { PORT } = require("./utils/handleConfig.js");
 http
 .createServer(app)
 .listen(PORT, () => {
-  console.log("listener on port 4000");
+  console.log(`listen on port ${PORT}`);
   require("./db.js");
 });

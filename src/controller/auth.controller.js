@@ -71,7 +71,7 @@ const authSignin = async (req, res) => {
     //quita password en el envio de los datos
     userFounded.set("password", undefined);
     //establece cookie con token
-    res.cookie("accessToken", accessToken, { maxAge: 60000 * 30});
+    res.cookie("token", accessToken, { maxAge: 60000 * 30});
     res.status(200).json([userFounded]);
   } catch (error) {
     return res.status(500).json([{ message: error }]);
@@ -81,7 +81,7 @@ const authSignin = async (req, res) => {
 //signuout
 const authSignout = (req, res) => {
   try {
-    res.cookie("accessToken", "", { expires: new Date(0) });
+    res.cookie("token", "", { expires: new Date(0) });
     return res.status(200).json([{ message: "Successful Signout" }]);
   } catch (error) {
     return res.status(500).json([{ message: error }]);
